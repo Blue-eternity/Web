@@ -1,0 +1,417 @@
+@font-face {
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Lora"), url("../fonts/Lora-Regular.woff2") format("woff2"),
+      url("../fonts/Lora-Regular.woff") format("woff"),
+      url("../fonts/Lora-Regular.eot") format("eot");
+    font-display: swap;
+}
+@font-face {
+    font-family: Oxygen;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Oxygen"), url("../fonts/Oxygen-Regular.woff2") format("woff2"),
+      url("../fonts/Oxygen-Regular.woff") format("woff"),
+      url("../fonts/Oxygen-Regular.eot") format("eot");
+    font-display: swap;
+}
+
+.body{
+    /* Desktop */
+    position: relative;
+    width: 100%;
+    height: 2689px;
+
+    background: #FFFFFF;
+
+}
+
+.bottom_block{
+    /* Frame */
+    position: absolute;
+    height: 89px;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 2600px;
+}
+.header_bottom{
+    position: absolute;
+    height: 89px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+.bottom_liner{
+    /* Frame */
+    position: absolute;
+    height: 34px;
+    left: 16.67%;
+    right: 16.67%;
+    top: 28px;
+}
+/* Escape. */
+.bottom_logo{
+    position: absolute;
+    height: 26px;
+    left: 1.04%;
+    right: 89.38%;
+    top: 3px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+}
+
+.nav{
+    /* Frame */
+    position: absolute;
+    height: 32px;
+    left: 33.33%;
+    right: 0%;
+    top: 0px;
+}
+.HOME{
+    text-decoration: none;
+    position: absolute;
+    width: 37px;
+    height: 26px;
+    right: 244.97px;
+    top: 3px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.CATEGORIES{
+    text-decoration: none;
+    position: absolute;
+    width: 76px;
+    height: 26px;
+    right: 148.97px;
+    top: 3px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.ABOUT{
+    text-decoration: none;
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    right: 86.97px;
+    top: 3px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.CONTACT{
+    /* Contact */
+    text-decoration: none;
+    position: absolute;
+    width: 57px;
+    height: 26px;
+    right: 9.97px;
+    top: 3px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.img{
+
+    position: absolute;
+    height: 89px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: url(.jpg), #4D565D;
+    border-radius: 0px;
+}
+.image_1{
+
+    position: absolute;
+    height: 534px;
+    left: 0%;
+    right: 0%;
+    top: 360px;
+
+    background: url(.jpg);
+    border-radius: 3px;
+}
+.top_block{
+
+    position: absolute;
+
+    height: 2600px;
+    left: 0%;
+    width: 1440px ;
+    right: 0%;
+    top: 0px;
+
+}
+.header_top{
+    /* Frame */
+    position: absolute;
+    height: 74px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+.top_liner{
+    /* Frame */
+    position: absolute;
+    height: 40px;
+    left: 17.36%;
+    right: 17.36%;
+    top: 17px;
+}
+.top_logo{
+    position: absolute;
+    height: 26px;
+    left: 0%;
+    right: 90.21%;
+    top: 3px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    /* identical to box height, or 100% */
+
+    color: #2E2E2E;
+}
+.home_liner{
+    /* Frame */
+    position: absolute;
+    height: 40px;
+    left: 59.94%;
+    right: 0%;
+    top: 0px;
+}
+.HOME2{
+    /* Home */
+    text-decoration: none;
+    position: absolute;
+    height: 20px;
+    left: 5.21%;
+    right: 84.44%;
+    top: 10px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+}
+.cab_categories{
+    /* Frame */
+
+    position: absolute;
+    height: 40px;
+    left: 21.14%;
+    right: 47.53%;
+    top: 0px;
+}
+.CATEGORIES2{
+    /* Categories */
+    text-decoration: none;
+    position: absolute;
+    height: 20px;
+    left: 16.95%;
+    right: 16.95%;
+    top: 10px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+}
+.cab_about{
+    /* Frame */
+    position: absolute;
+    height: 40px;
+    left: 52.47%;
+    right: 26.02%;
+    top: 0px;
+}
+.ABOUT2{
+    /* About */
+    text-decoration: none;
+    position: absolute;
+    height: 20px;
+    left: 24.69%;
+    right: 24.69%;
+    top: 10px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+}
+.cab_contact{
+    /* Frame */
+
+    position: absolute;
+    height: 40px;
+    left: 73.98%;
+    right: 0%;
+    top: 0px;
+}
+.CONTACT2{
+    /* Contact */
+    text-decoration: none;
+    position: absolute;
+    height: 20px;
+    left: 20.41%;
+    right: 20.41%;
+    top: 10px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #2E2E2E;
+}
+.text{
+/* Frame */
+    position: absolute;
+    height: 1706px;
+    left: 0%;
+    right: 0%;
+    top: 894px;
+}
+.text_block{
+    position: absolute;
+    width: 960px;
+    height: 1431px;
+    left: 240px;
+    top: 140px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+
+    color: #101315;
+}
+.intro{
+    
+    position: absolute;
+    height: 74px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+.block_intro{
+/* Frame */
+    position: absolute;
+    height: 159px;
+    left: 17.36%;
+    right: 17.36%;
+    top: 163px;
+}
+
+.intro_top{
+    /* The Road Ahead */
+    position: absolute;
+    width: 498px;
+    height: 51px;
+    left: calc(50% - 498px/2);
+    top: -7px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    /* identical to box height, or 102% */
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #2E2E2E;
+}
+.intro_bottom{
+    /* The road ahead might be paved - it might not be. */
+    position: absolute;
+    width: 504px;
+    height: 20px;
+    left: calc(50% - 504px/2);
+    top: 64px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    text-align: center;
+
+    color: rgba(46, 46, 46, 0.63);
+}
